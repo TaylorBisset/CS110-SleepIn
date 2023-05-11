@@ -29,5 +29,8 @@ int main()
 		{
 			cout << "\nYou can sleep in!\n";
 		}
-
+		else if (onVacation != 'n' && onVacation != 'y')
+		{
+			cout << "\nPlease play by the rules next time...\n";
+		}
 }
