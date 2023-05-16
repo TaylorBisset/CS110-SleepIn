@@ -6,9 +6,10 @@ int main()
 {
 	char onVacation = 'n';
 	int dayOfWeek = 1;
-
-	cout << "Are you on vacation? (y/n) : ";
-	cin >> onVacation;
+	while (true)
+	{
+		cout << "Are you on vacation? (y/n) : ";
+		cin >> onVacation;
 		if (onVacation == 'n')
 		{
 			cout << "\nWhat day of the week is it?\n";
@@ -33,4 +34,5 @@ int main()
 		{
 			cout << "\nPlease play by the rules next time...\n";
 		}
+	}
 }
